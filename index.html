@@ -1,2 +1,139 @@
-1
-пр
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Spline+Sans&display=swap" rel="stylesheet">
+    <title>CV Alyona Khvalko</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div class="header_container">
+                <!-- <div class="burger__btn">Menu</div> -->
+                <div class="header__foto">
+                    <img src="assets/my-photo.jpg" alt="foto" width="250" class="header_image">
+                </div>
+                
+                <div class="header__content">
+                    <nav class="header_navigation">
+                        <ul class="navigation_list">
+                            <li class="navigation_item"><a href="#part1">Contacts</a></li>
+                            <li class="navigation_item"><a href="#part2">Education</a></li>
+                            <li class="navigation_item"><a href="#part3">About Me</a></li>
+                            <li class="navigation_item"><a href="#part4">Skills</a></li>
+                            <li class="navigation_item"><a href="#part5">Courses</a></li>
+                            <li class="navigation_item"><a href="#part7">Code</a></li>
+                            <li class="navigation_item"><a href="#part6">Languages</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__info">
+                        <h1 class="header__title">Alyona Khvalko</h1>
+                        <h2 class="header__subtitle">Future Front-end Developer</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content main-content-adaptiv">
+        <div class="container">
+            <div class="main-content__container">
+                <aside class="aside">
+                    <section class="education" id="part2">
+                        <h2 class="ed-title">Education</h2>
+                        <div class="line line_yellow"></div>
+                        <p class="ed-content-1">Minsk Higher Radio Engineering College</p>
+                        <p class="ed-content-2">Design and production of radio electronic equipment</p>
+                        <p class="ed-content-3">2009-2012</p>
+                    </section>
+
+                    <section class="contacts" id="part1">
+                        <h2 class="contacts-title">Contacts</h2>
+                        <div class="line line_yellow"></div>
+                        <div class="contacts-content">
+                            <p>Location: Baranovichi, Belarus <br>
+                            Phone: +375 44 5375438<br>
+                            Email: alyonakazimirchick@gmail.com</p> 
+                        </div>
+                    </section>
+
+                </aside>
+
+                <main class="main">
+                    <section class="about-me" id="part3">
+                        <h2 class="about-title">About Me</h2>
+                        <div class="line line_black"></div>
+                        <p class="about-content">I'm 29 years old, I work as a marketer and content-manager. My goal is to gain knowledge in the field of front-end development.
+                            I have some knowledge in the development of sites on CMS Wordpress, but it is not enough for me. I want to study HTML, CSS, JS, Angular and get a high paying job in the future.
+                        </p>
+                    </section>
+
+                    <section class="skills" id="part4">
+                        <h2 class="skills-title">Skills</h2>
+                        <div class="line line_black"></div>
+                        <ul class="skills-content">
+                            <li>CMS WordPress</li>
+                            <li>HTML5, CSS3 (Basics)</li>
+                            <li>JavaScript (in process)</li>
+                            <li>Git, GitHub (in process)</li>
+                            <li>VS Code, Adobe Photoshop</li>
+                        </ul>
+                    </section>
+
+                    <section class="self-education" id="part5">
+                        <h2 class="s-ed-title">Courses</h2>
+                        <div class="line line_black"></div>
+                        <ul class="ed-content">
+                            <li>HTML, CSS (W3schools)</li>
+                            <li>RS School in process (JS/FE Pre-School)</li>
+                            <li>JavaScript in process </li>
+                        </ul>
+                    </section>
+
+                    <section class="code" id="part7">
+                        <h2 class="code-title">Code</h2>
+                        <div class="line line_black"></div>
+                        <pre class="code-content">
+                        <code class="code">
+                            function min(a, b) { 
+                                return a &lt; b ? a : b;
+                            }
+                        </code>
+                        </pre>
+                    </section>
+
+                    <section class="Languages" id="part6">
+                        <h2 class="lang-title">Languages</h2>
+                        <div class="line line_black"></div>
+                        <p class="lang-content">Belorussian (native), Russian, English (A2).</p>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-item">
+                <a href="https://github.com/alyonakhvalko" target="_blank">
+                <img src="assets/github.png" alt="github-logo" class="footer-image"></a>
+            </div>
+            <div class="footer-item">
+                <a href="https://rs.school/js/" target="_blank">
+                    <img src="assets/rs_school_js.png" alt="rss-logo" class="footer-image"></a>
+            </div>
+                <div class="footer-item-date">
+                    <p class="footer-date">Created in 2022</p>
+                </div>
+        </div>
+    </footer>
+
+</body>
+</html>
