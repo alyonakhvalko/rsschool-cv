@@ -1,2 +1,2 @@
+https://alyonakhvalko.github.io/rsschool-cv/
 
-https://alyonakhvalko.github.io/rsschool-cv/cv
