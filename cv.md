@@ -4,7 +4,6 @@
 ### My Contact Info:
 - E-mail: alyonakazimirchick@gmail.com
 - GitHub: alyonakhvalko
-- Telegram: 
 - Discord: @Alyona Khvalko#3621
 - Location: Belarus, Baranovichi
 ***
